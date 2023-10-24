@@ -7,11 +7,44 @@
 <body>
     <style>
         body {
-            background-image: url('/img/back.jpg'); /* Ruta de la imagen de fondo */
-            background-size: cover; /* Ajusta el tamaño de la imagen al tamaño de la ventana del navegador */
-            background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
-            background-attachment: fixed; /* Fija la imagen de fondo en su posición */
+            background-color: black;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
+
+        .contenido {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: green;
+            padding: 10px;
+            text-align: justify;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+        }
+
+        .imagen {
+            position: absolute;
+            top: 250px;
+            left: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="contenido">
+        <p>Los ordenadores tienen una fascinante historia que se remonta a la invención de la máquina analítica de Charles Babbage en el siglo XIX. A lo largo de los años, han evolucionado desde máquinas enormes y mecánicas hasta dispositivos electrónicos compactos y potentes que utilizamos en la actualidad.</p>
+        <p>En la década de 1940, se construyeron las primeras computadoras electrónicas, como la ENIAC. Desde entonces, la informática ha avanzado a pasos agigantados, revolucionando la forma en que vivimos y trabajamos. Los pioneros como Alan Turing y Grace Hopper han dejado una huella imborrable en la historia de la tecnología.</p>
+        <p>El auge de la informática personal en la década de 1980 y el surgimiento de Internet en la década de 1990 han transformado por completo la forma en que nos comunicamos y accedemos a la información, allanando el camino para la era digital en la que vivimos hoy en día.</p>
+    </div>
+
+    <div class="imagen">
+        <img src="pc.jpg" alt="Mi Imagen">
+    </div>
+</body>
     </style>
 </body>
 </html>
