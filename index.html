@@ -20,15 +20,20 @@
             color: green;
             padding: 10px;
             text-align: justify;
-            background: rgba(0, 0, 0, 0.5);
+            background: black
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
         }
 
+        .contenido p {
+            text-shadow: 0 0 5px rgba(0, 255, 0, 0.5); /* Efecto de "bloom" discreto en el texto */
+        }
+        
         .imagen {
             position: absolute;
-            top: 250px;
-            left: 10px;
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
         }
@@ -42,7 +47,7 @@
     </div>
 
     <div class="imagen">
-        <img src="pc.jpg" alt="Mi Imagen">
+        <img src="Apple_II.jpg" alt="Mi Imagen" height="500px">
     </div>
 </body>
     </style>
